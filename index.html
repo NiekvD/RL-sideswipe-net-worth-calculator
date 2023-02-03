@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rl sideswipe net worth calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <script src="main.js"></script>
+    <style>
+        .center {
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="center">Calculate your net worth here</h1>
+        <div class="grid">
+            <input type="number" id="black-market" placeholder="black market">
+            <input type="number" id="black-market-painted" placeholder="painted black market">
+            <input type="number" id="exotic" placeholder="exotic">
+            <input type="number" id="exotic-painted" placeholder="painted exotic">
+        </div>
+        <div class="grid">
+            <input type="number" id="import" placeholder="import">
+            <input type="number" id="import-painted" placeholder="painted import">
+            <input type="number" id="very-rare" placeholder="very rare">
+            <input type="number" id="very-rare-painted" placeholder="painted very rare">
+        </div>
+        <div class="grid">
+            <input type="number" id="rare" placeholder="rare">
+            <input type="number" id="rare-painted" placeholder="painted rare">
+            <input type="number" id="uncommon" placeholder="uncommon">
+            <input type="number" id="uncommon-painted" placeholder="painted uncommon">
+        </div>
+        <button onclick="calculate()">calculate</button>
+    </main>
+    <main class="container" style="display: none;">
+        <h2 class="center">Your net worth is:</h2>
+        <h1 class="center" id="output">number</h1>
+        <button onClick="window.location.reload();">go back</button>
+    </main>
+</body>
+
+</html>
