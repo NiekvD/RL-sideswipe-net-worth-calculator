@@ -1,1 +1,1 @@
-# RL-sideswipe-net-worth-calculator
+# RL sideswipe net worth calculator
